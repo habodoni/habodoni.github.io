@@ -1,0 +1,43 @@
+/* src/components/AccountSettings.css */
+.account-settings-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.account-settings-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.account-settings-form label {
+    margin: 10px 0;
+}
+
+.account-settings-form input {
+    padding: 5px;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.account-settings-form button {
+    background: none;
+    border: none;
+    color: #666;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.account-settings-form button:hover {
+    color: black;
+}
+
+.success-message {
+    color: green;
+    margin-top: 10px;
+}
